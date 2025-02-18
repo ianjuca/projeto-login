@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media-query.css">
 </head>
 <body>
     <main>
         <section id="login">
             <div id="imagem">
-                <img src="imagens/pexels-eosvini-2896034.jpg" alt="imagem tela de login">
+                
             </div>
             <div id="formulario">
                 <h1>Login</h1>
@@ -20,10 +21,14 @@
                         <label for="iemail">Email: </label>
                         <input type="email" name="email" id="iemail" required autocomplete="email" placeholder="joaozinho123@gmail.com">
                     </div>
-
+                        
                     <div>
                         <label for="isenha">Senha: </label>
                         <input type="password" name="senha" id="isenha" required min="8" max="15" autocomplete="current-password" placeholder="Digite sua senha">
+                    </div>
+                    <div>
+                        <input type="submit" value="Entrar">
+                        <input type="submit" value="Esqueceu a senha?">
                     </div>
                 </form>
             </div>
